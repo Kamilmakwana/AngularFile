@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>User Registration</h1>
+    <form (click)="submit(login)">
+        <div class="form-group">
+            <label for="FirstName">First Name</label><br>
+            <input type="text" name="FirstName" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="LastName">Last Name</label><br>
+            <input type="text" name="LastName" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <div class="form-group">
+            <label for="password">Password</label><br>
+            <input type="password" name="Password" class="form-control" ngModel>
+        </div>
+        <pre></pre>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
