@@ -12,6 +12,10 @@ import { NavbarComponent } from './BlogsComponents/navbar/navbar.component';
 import { IntroComponent } from './BlogsComponents/intro/intro.component';
 import { MydetailsComponent } from './BlogsComponents/mydetails/mydetails.component';
 import { FooterComponent } from './BlogsComponents/footer/footer.component';
+import { FeedbackComponent } from './BlogsComponents/feedback/feedback.component';
+import { LoginComponent } from './BlogsComponents/login/login.component';
+import { HomeComponent } from './BlogsComponents/home/home.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -23,12 +27,16 @@ import { FooterComponent } from './BlogsComponents/footer/footer.component';
     NavbarComponent,
     IntroComponent,
     MydetailsComponent,
-    FooterComponent
+    FooterComponent,
+    FeedbackComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

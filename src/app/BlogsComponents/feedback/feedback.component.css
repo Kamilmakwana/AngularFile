@@ -1,0 +1,18 @@
+.rating {
+    display: flex;
+  }
+  
+  .rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .rating input[type="checkbox"] {
+    display: none;
+  }
+  
+  .rating input[type="checkbox"]:checked ~ label {
+    color: #f8ce0b;
+  }
+  
