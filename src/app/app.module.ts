@@ -16,6 +16,7 @@ import { FeedbackComponent } from './BlogsComponents/feedback/feedback.component
 import { LoginComponent } from './BlogsComponents/login/login.component';
 import { HomeComponent } from './BlogsComponents/home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutComponent } from './BlogsComponents/about/about.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FooterComponent,
     FeedbackComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
