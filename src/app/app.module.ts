@@ -17,6 +17,8 @@ import { LoginComponent } from './BlogsComponents/login/login.component';
 import { HomeComponent } from './BlogsComponents/home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './BlogsComponents/about/about.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { AboutComponent } from './BlogsComponents/about/about.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

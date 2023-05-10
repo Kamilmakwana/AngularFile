@@ -4,15 +4,21 @@
   
   .rating label {
     font-size: 30px;
-    color: #ccc;
-    cursor: pointer;
+    /* color: #f8ce0b; */
+    /* color: #ccc; */
+    /* cursor: pointer; */
   }
   
   .rating input[type="checkbox"] {
     display: none;
   }
   
-  .rating input[type="checkbox"]:checked ~ label {
+  .rating input[type="checkbox"]:checked ~ label{
     color: #f8ce0b;
+    /* color: #ccc; */
   }
   
+  ngb-rating {
+    color: #FFC107;
+    font-size: 40px;
+}
